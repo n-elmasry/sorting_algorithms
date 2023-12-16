@@ -7,13 +7,11 @@
 */
 void selection_sort(int *array, size_t size)
 {
-	int smallest, swapped, temp;
+	int smallest, temp;
 	size_t i, j;
 
 	if (array == NULL || size == 0)
 	return;
-
-	swapped = 0;
 
 
 	for (i = 0; i < size - 1 ; i++)
@@ -32,11 +30,7 @@ void selection_sort(int *array, size_t size)
 		temp = array[i];
 		array[i] = array[smallest];
 		array[smallest] = temp;
-		swapped = 1;
 		print_array(array, size);
 	}
-
-	if (swapped == 0)
-		break;
 	}
 }
