@@ -16,11 +16,11 @@ void insertion_sort_list(listint_t **list)
 	else
 	{
 		current = (*list)->next;
-		while(current)
+		while (current)
 		{
 			temp = current->next;
 			previous = current->prev;
-			while(previous && previous->n > current->n)
+			while (previous && previous->n > current->n)
 			{
 				current->next = previous;
 				current->prev = previous->prev;
@@ -48,4 +48,3 @@ void insertion_sort_list(listint_t **list)
 		}
 	}
 }
-
