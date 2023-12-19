@@ -1,9 +1,9 @@
 #include "sort.h"
 /**
-* swap - Swaps two integers.
-* @x: Pointer to the first integer.
-* @y: Pointer to the second integer.
-*/
+ * swap - Swaps two integers.
+ * @x: Pointer to the first integer.
+ * @y: Pointer to the second integer.
+ */
 
 void swap(int *x, int *y)
 {
@@ -13,12 +13,12 @@ void swap(int *x, int *y)
 }
 
 /**
-* quicksort_recursion - Recursively sorts an array using quicksort
-* @array: Array to be sorted.
-* @low: Index of the low element.
-* @high: Index of the high element.
-* @size: Size of the array.
-*/
+ * quicksort_recursion - Recursively sorts an array using quicksort
+ * @array: Array to be sorted.
+ * @low: Index of the low element.
+ * @high: Index of the high element.
+ * @size: Size of the array.
+ */
 void quicksort_recursion(int array[], int low, int high, size_t size)
 {
 	int pivot;
