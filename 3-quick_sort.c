@@ -32,11 +32,11 @@ void quicksort_recursion(int array[], int low, int high, size_t size)
 }
 
 /**
-* quick_sort - sorts an array of integers in ascending order
-* @array: array to be sorted
-* @size: the size of the array
-* Return: void
-*/
+ * quick_sort - sorts an array of integers in ascending order
+ * @array: array to be sorted
+ * @size: the size of the array
+ * Return: void
+ */
 void quick_sort(int *array, size_t size)
 {
 	if (array == NULL || size < 2)
